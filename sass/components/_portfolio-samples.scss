@@ -1,0 +1,161 @@
+.samples {
+    display: flex;
+    flex-wrap: wrap;
+
+    @media screen and (max-width:1199px) {
+      padding-bottom: 60px; 
+    }
+    @media screen and (min-width:1200px) {
+      padding-bottom: 94px;
+    }
+    
+    @media screen and (min-width:768px){
+      gap: 30px;}
+ 
+ 
+   
+ 
+  }
+  
+   
+    .samples__item{
+        display: inline-block;
+        transition-property: all; 
+        transition-duration: 250ms;
+        transition-timing-function: 
+        cubic-bezier(0.4, 0, 0.2, 1);
+    
+        @media screen and (max-width:767px) {
+          &:not(:last-child){margin-bottom: 30px;}
+         }
+
+@media screen and (min-width:768px){
+  
+  flex-basis: calc((100% - 1 * 30px) / 2);}
+
+  @media screen and (min-width:1200px) {
+    flex-basis: calc((100% - 2 * 30px) / 3)
+  }
+
+    //     margin-right: 30px; 
+    //     margin-bottom: 30px;  
+    // &:nth-child(3n){margin-right: 0;}
+    
+    // &:nth-child(n + 7) {margin-bottom: 0;}
+    }
+
+
+
+.samples__item{
+   
+    &:hover{
+     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
+ &{box-sizing: border-box; 
+  
+}
+    
+    
+ }
+
+
+ .samples{
+
+    &__title{
+        color: var(--main-text-colour);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2; 
+        margin: 0;  
+       }
+    
+       &__text{
+         color: var(--article-text-colour);
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 1.88;  
+         margin: 0; 
+       }
+    }
+
+
+
+
+   .samples__blocks{
+    
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    padding-left: 24px;
+    border: 1px solid var(--filter-border-colour);
+    
+   @media screen and (max-width:767px) {
+    width: 450px;
+   }
+
+    @media screen and (min-width: 768px) {
+      width: 354px;
+    }
+    @media screen and (min-width:1200px) {
+      width: 370px;
+    }
+      }
+
+      .samples__img{
+        height: 294px;
+        @media screen and (max-width:767px) {
+          width: 450px;
+         }
+      
+          @media screen and (min-width: 768px) {
+            width: 354px;
+          }
+          @media screen and (min-width:1200px) {
+            width: 370px;
+          }
+       
+          }
+//    Ховер на портфолио
+
+
+
+.rekurs{ 
+    position: relative; 
+    overflow: hidden; 
+  } 
+  .overlay { 
+    position: absolute; 
+    padding-left: 24px; 
+    padding-right: 24px; 
+    height: 294px;
+    display: flex; 
+    color:  var(--second-text-colour); 
+    font-size: 18px; 
+    line-height: 1.55; 
+    letter-spacing: 0.54px; 
+    background-color: rgba(33, 150, 243, 0.9); 
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
+    @media screen and (max-width:767px) {
+      width: 450px;
+     }
+  
+      @media screen and (min-width: 768px) {
+        width: 354px;
+      }
+      @media screen and (min-width:1200px) {
+        width: 370px; 
+      }
+   
+    
+
+
+
+  } 
+   
+  .samples li:focus .overlay, 
+  .samples li:hover .overlay { 
+      transform: translateY(-100%); 
+  } 
+   
+  .overlay p { 
+      margin: auto; 
+  }

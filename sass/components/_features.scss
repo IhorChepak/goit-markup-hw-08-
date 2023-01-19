@@ -1,0 +1,101 @@
+
+
+        .features{
+            @media screen and (max-width:1199px) {
+                padding-top: 60px; 
+                padding-bottom: 60px;}
+
+            @media screen and (min-width:1200px) {
+            padding-top: 94px; 
+            padding-bottom: 94px;
+            }
+            
+
+            
+        &__list {
+            display: flex; 
+            list-style: none; 
+            justify-content: center; 
+            flex-wrap: wrap;
+
+        
+         @media screen and(min-width:1200px) {
+            flex-wrap: nowrap;
+         }
+
+
+        }
+
+       
+
+        
+      
+        
+        &__block{
+              
+                height: 120px;
+               background-color: var(--button-backgroud-colour) ;
+                margin-bottom: 30px ; 
+                border-radius: 4px;
+              
+                text-align: center; 
+                padding-top: 25px;
+
+
+
+               
+            }
+        }
+
+        .features__icon{
+            margin-bottom: 25px;}
+
+        .features{
+
+        &__title{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            margin-top: 0; 
+            margin-bottom: 0; 
+            padding: 0;
+            color:var(--main-text-colour);
+        } 
+         
+        &__text{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 0;
+            margin-top: 10px; 
+            color:var(--article-text-colour);}
+            
+        }
+
+
+        .features__item{
+
+            @media screen and (max-width:767px) {
+                width: 450px;
+            }
+
+            @media screen and (min-width:768px) {
+                width: 354px;
+            }
+            // width: 270px;
+
+            @media screen and (min-width:768px) {
+                &:nth-child(2n + 1){margin-right: 30px;}
+                
+            
+                
+             } 
+    
+            @media screen and (min-width:1200px) {
+                &:not(:last-child) {margin-right: 30px;  
+            }
+       
+    }
+
+
+        }

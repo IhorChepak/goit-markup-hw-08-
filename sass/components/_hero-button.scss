@@ -1,0 +1,18 @@
+.hero__button{
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: var(--button-text-colour); 
+    color: var(--second-text-colour); 
+    border-radius: 4px;
+    padding: 10px 32px;
+    display: inline-block;
+    min-width: 216px;
+    min-height: 50px;
+    cursor: pointer;
+    border: none;
+    }
+    

@@ -1,0 +1,48 @@
+// Base styles
+@import"./utils/variables";
+@import"./base/base";
+@import"./components/container";
+@import"./utils/visually-hidden";
+
+// Header
+@import"./components/site-header";
+@import"./components/logo";
+@import"./components/nav-icons";
+
+// Hero
+@import"./components/hero";
+@import"./components/hero-button";
+
+// Section Features переваги
+@import"./components/features";
+
+// Backdrop, modal,checkbox
+@import"./components/backdrop";
+@import"./components/modal";
+@import"./components/checkbox";
+@import"./components/modal-button";
+
+// Section About
+@import"./components/about";
+
+// Section Our Team
+@import"./components/team";
+@import"./components/social-icons";
+
+
+// Section clients
+@import"./components/clients";
+
+// Footer
+@import"./components/footer";
+@import"./components/foot-social-icons";
+@import"./components/footer-form";
+@import"./components/foot-button";
+
+// Портфолио
+@import"./components/filter-button";
+@import"./components/portfolio-filter";
+@import"./components/portfolio-samples";
+
+// Menu mobile phone
+@import"./components/menu-mobile"

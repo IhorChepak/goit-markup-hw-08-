@@ -1,0 +1,24 @@
+
+    
+.filter__button{
+    
+    background-color: var(--button-backgroud-colour);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 4px;
+    padding: 6px 22px;
+    transition-property: all; 
+    transition-duration: 250ms;
+    cursor: pointer;
+     border: none;
+    transition-timing-function: 
+    cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:focus, &:hover{
+    background-color: var(--button-text-colour);
+    color: var(--second-text-colour);}
+}

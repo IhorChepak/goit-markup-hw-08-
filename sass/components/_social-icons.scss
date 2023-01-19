@@ -1,0 +1,35 @@
+
+
+    .social-icons{
+        display: flex;
+         justify-content: center;
+           
+        &__item{ 
+            margin-right: 10px; 
+            margin-top: 16px; }
+        &__item:last-child{margin-right:0; }
+       } 
+    
+       .social-link{
+        fill: var(--clients-border-colour);
+         width: 44px; 
+         height: 44px; 
+         border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-property: all; 
+        transition-duration: 250ms;
+         transition-timing-function: 
+        cubic-bezier(0.4, 0, 0.2, 1);
+        
+
+      &:hover{background-color:var(--button-text-colour) ; fill: var(--second-text-colour);}
+}
+
+
+
+
+
+
+ 
