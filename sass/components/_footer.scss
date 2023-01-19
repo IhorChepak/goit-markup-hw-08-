@@ -1,73 +1,65 @@
-.foot-link{
+.foot-link {
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
-   
     display: inline-block;
     color: var(--second-text-colour);
-    @media screen and (max-width:1199px) {
+    @media screen and (max-width: 1199px) {
         margin-bottom: 28px;
     }
-
     @media screen and (min-width:1200px) {
         margin-bottom: 20px;
     }
-    }
+}
 
-.site-footer{
+.site-footer {
     background-color: var(--secondary-background-colour);
     padding-top: 60px;
     padding-bottom: 60px;
-    
-
-&__list{
-    margin: 0; 
-    padding: 0;
-    @media screen and (max-width:1199px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    &__list {
+        margin: 0;
+        padding: 0;
+        @media screen and (max-width: 1199px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        @media screen and (min-width: 1200px) {
+            align-items: baseline;
+            // display: inline-block; 
+            //  padding-left: 0;
+        }
     }
-    @media screen and (min-width: 1200px) {
-
-        align-items: baseline;
-    // display: inline-block; 
-    //  padding-left: 0;
+    &__item:not(:last-child) {
+        @media screen and (max-width: 1199px) {
+            margin-bottom: 12px;
+        }
+        @media screen and (min-width:1200px) {
+            margin-bottom: 9px;
+        }
     }
-    }  
-  
-&__item:not(:last-child){
-    
-    @media screen and (max-width:1199px) {margin-bottom: 12px;}
-    @media screen and (min-width:1200px) {
-        margin-bottom: 9px;
+    &__logo {
+        color: var(--button-text-colour);
     }
-    
-
-
 }
 
-      
-&__logo{color: var(--button-text-colour);}
-
-}
-
-.site-footer__link{
+.site-footer__link {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     font-style: normal;
-    text-decoration: none; 
-    color: var(--article-text-colour);
-
-&--color{color: var(--second-text-colour);}
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    &--color {
+        color: var(--second-text-colour);
+    }
 }
 
-
-.site-footer__contacts{
-    @media screen and (max-width:1199px) {
+.site-footer__contacts {
+    @media screen and (max-width: 1199px) {
         display: flex;
         flex-direction: column;
         align-items: center;

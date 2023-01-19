@@ -1,24 +1,21 @@
-
-.navigat{
-
-    &__link{ 
-        font-family: Raleway;  
+.navigat {
+    &__link {
+        font-family: 'Raleway';
+        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.36;
         text-decoration: none;
         display: block;
-        
-        color:var(--main-text-colour);
-
-        @media screen and (min-width:768px) {
+        color: var(--main-text-colour);
+        @media screen and (min-width: 768px) {
             margin-right: 88px;
         }
         @media screen and (min-width:1200px) {
             margin-right: 93px;
-            
         }
     }
-    &__icon{
-    color:var(--button-text-colour);}
+    &__icon {
+        color: var(--button-text-colour);
     }
+}
