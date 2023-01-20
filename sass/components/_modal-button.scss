@@ -1,16 +1,19 @@
 .modal__button {
     position: absolute;
-    border: none;
-    top: 7px;
-    right: 7px;
-    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    top: 8px;
+    right: 8px;
+    // outline: none;
     background-color: white;
     border-radius: 50%;
     cursor: pointer;
+    align-items: center;
 }
 
-.icon-close:hover,
-.icon-close:focus {
+.close-icon {}
+
+.close-icon:hover,
+.close-icon:focus {
     fill: #2196F3;
 }
 
@@ -21,7 +24,7 @@
     color: var(--second-text-colour);
     background-color: var(--button-text-colour);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    // border-radius: 4px;
     border: none;
     margin: 0;
     margin-top: 30px;

@@ -1,6 +1,7 @@
 .site-header {
     display: flex;
     border-bottom: 1px solid #ECECEC;
+    justify-content: space-between;
     @media screen and (max-width: 767px) {
         padding-top: 16px;
         padding-bottom: 16px;
@@ -16,7 +17,8 @@
 }
 
 .main-menu {
-    display: flex
+    display: flex;
+    justify-content: space-between;
 }
 
 .navigat,

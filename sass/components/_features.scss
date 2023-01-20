@@ -1,11 +1,9 @@
 .features {
-    @media screen and (max-width: 1199px) {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    @media screen and (min-width:1200px) {
-        padding-top: 94px;
-        padding-bottom: 94px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    @media screen and (min-width: 1200px) {
+        margin-top: 94px;
+        margin-bottom: 94px;
     }
     &__list {
         display: flex;
@@ -40,6 +38,9 @@
         padding: 0;
         text-align: center;
         color: var(--main-text-colour);
+        @media screen and (min-width: 768px) {
+            text-align: left;
+        }
     }
     &__text {
         font-weight: 400;
@@ -54,6 +55,7 @@
 .features__item {
     @media screen and (max-width: 767px) {
         width: 450px;
+        margin-bottom: 30px;
     }
     @media screen and (min-width:768px) {
         width: 354px;
